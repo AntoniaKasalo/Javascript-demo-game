@@ -14,7 +14,7 @@ import './style.css'
 const canvas = document.querySelector("#game-canvas");
 const ctx = canvas.getContext("2d");
 
-const skySprite = new Sprite ({
+const skySprite = new Sprite({
     resource: resources.images.sky,
     frameSize: new Vector2(320, 180)
   })
