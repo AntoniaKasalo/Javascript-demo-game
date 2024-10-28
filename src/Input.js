@@ -28,7 +28,7 @@ export class Input{
 
         })
 
-        document.addEventListener("keyup", (e) => {
+        document.addEventListener ("keyup", (e) => {
             //Also check for dedicated direction list
             if( e.code === "ArrowUp" || e.code === "KeyW"){
                 this.onArrowReleased(UP);
